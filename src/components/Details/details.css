@@ -1,0 +1,26 @@
+.details {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 15vh;
+  margin: 0;
+  padding: 10%;
+  gap: 5vw;
+}
+.details .border {
+  width: 15vw;
+  margin: 2px;
+  padding: 5px;
+  background: radial-gradient(ellipse closest-side at center, #fdf0f2, white);
+}
+.details .border:nth-child(4) {
+  background: radial-gradient(ellipse closest-side at center, #f5fdfa, white);
+}
+.details .border div {
+  margin-top: 10px;
+}
+.border p {
+  color: rgba(7, 5, 5, 0.678);
+}

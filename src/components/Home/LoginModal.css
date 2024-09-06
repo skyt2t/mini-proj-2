@@ -1,0 +1,179 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Dim the background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensures modal is above everything */
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 90%;
+  position: relative;
+  z-index: 1001; /* Modal content should be above the overlay */
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.input-code,
+.input-mobile {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+.btn-continue {
+  width: 100%;
+  padding: 10px;
+  background-color: #f3123c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-options {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.email-btn {
+  background-color: #333;
+  color: white;
+}
+
+.fb-btn {
+  background-color: #3b5998;
+  color: white;
+}
+
+.apple-btn {
+  background-color: black;
+  color: white;
+}
+
+.terms {
+  font-size: 12px;
+  text-align: center;
+}
+
+.terms a {
+  color: #f3123c;
+  text-decoration: none;
+}
+/* Ensure the code and mobile number inputs are side by side */
+.side-by-side {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.code-input,
+.mobile-input {
+  flex: 1;
+}
+
+.input-code,
+.input-mobile {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.btn-continue {
+  width: 100%;
+  padding: 10px;
+  background-color: #f3123c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-options {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.email-btn {
+  background-color: #333;
+  color: white;
+}
+
+.fb-btn {
+  background-color: #3b5998;
+  color: white;
+}
+
+.apple-btn {
+  background-color: black;
+  color: white;
+}
+
+.terms {
+  font-size: 12px;
+  text-align: center;
+}
+
+.terms a {
+  color: #f3123c;
+  text-decoration: none;
+}

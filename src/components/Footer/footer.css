@@ -1,0 +1,92 @@
+.footer {
+  width: 100%;
+  min-height: 50vh;
+  position: relative;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .amber-details {
+  position: absolute;
+  left: 5vw;
+}
+.amber-details p {
+  font-size: small;
+  color: rgba(128, 128, 128, 0.808);
+}
+.rating-block p {
+  font-size: medium;
+  color: rgba(20, 20, 20, 0.808);
+}
+.footer-rating {
+  margin-top: 3vh;
+  background-color: #f9fafb;
+  border-radius: 10px 10px;
+  padding: 2vh;
+}
+.rating-block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2vh;
+  width: 30vw;
+  height: 5vh;
+}
+.rate-block {
+  margin-top: 2vh;
+}
+.rate-block p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2.25vw;
+  color: black;
+}
+.download-details {
+  position: relative;
+  display: flex;
+  margin-top: 3vh;
+  background-color: #f9fafb;
+  border-radius: 10px 10px;
+  padding: 2vh;
+  width: 32vw;
+  min-height: 3vh;
+  justify-content: space-between;
+}
+.arrange-image {
+  padding: 2%;
+  margin-top: 1vh;
+  display: flex;
+  float: left;
+  width: 10vw;
+}
+.arrange-image img {
+  width: 15%;
+  cursor: pointer;
+}
+.methods {
+  position: relative;
+  width: 100%;
+  margin-left: 5%;
+}
+.cards {
+  margin-top: 1vh;
+  display: flex;
+  justify-content: flex-start;
+}
+.cards img {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+}
+.fo-details {
+  display: flex;
+  margin-left: 40%;
+  justify-content: space-evenly;
+  width: 50%;
+}
+.company ul li {
+  line-height: 4.5vh;
+}

@@ -1,0 +1,72 @@
+/* menuPopup.css */
+.menu-popup {
+  position: absolute;
+  top: 60px; /* Adjust based on your menu height */
+  right: 0;
+  background: white;
+  width: 300px; /* Adjust width as needed */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  overflow: hidden;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform: scale(0.9);
+  opacity: 0;
+}
+
+.menu-popup.open {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.menu-popup-content {
+  padding: 20px;
+  border-top: 4px solid #007bff; /* Add a colored border at the top */
+}
+
+.menu-popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.menu-popup-close {
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  color: #007bff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.menu-popup-close:hover {
+  color: #0056b3;
+}
+
+.menu-popup-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-popup-list li {
+  padding: 12px 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  transition: background 0.3s ease;
+}
+
+.menu-popup-list li:hover {
+  background: #f5f5f5;
+}
+
+.menu-popup-list li svg {
+  margin-right: 12px;
+  color: #007bff; /* Match icon color with the border */
+}

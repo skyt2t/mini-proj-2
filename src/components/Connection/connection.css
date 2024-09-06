@@ -1,0 +1,91 @@
+.connection-details {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  background-color: #f9fafb;
+  height: 20vh;
+  display: flex;
+  gap: 2vw;
+}
+.need-help {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
+  justify-content: center;
+  width: 30%;
+}
+.need-help h1 {
+  display: flex;
+  align-items: center;
+}
+.contact-us {
+  width: 58%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+}
+.live-chat,
+.whatsapp,
+.mail,
+.phone {
+  width: 15%;
+  height: 65%;
+  position: relative;
+  padding: 1vh;
+}
+.live-chat {
+  border: 1px solid rgba(255, 0, 0, 0.548);
+  border-radius: 10px;
+  position: relative;
+}
+.whatsapp {
+  border: 1px solid #31c48d;
+  border-radius: 10px;
+}
+.mail {
+  border: 1px solid rgba(128, 128, 128, 0.438);
+  border-radius: 10px;
+}
+.phone {
+  border: 1px solid rgba(128, 128, 128, 0.438);
+  border-radius: 10px;
+}
+.live-icon,
+.wha-icon,
+.mail-icon,
+.phn-icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.leg-live {
+  width: 60%;
+  background-color: #ed3a56;
+  text-align: center;
+  border-radius: 6px;
+  padding: 3px;
+  font-size: small;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leg-wha {
+  width: 60%;
+  background-color: #31c48d;
+  text-align: center;
+  border-radius: 6px;
+  padding: 3px;
+  font-size: small;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
